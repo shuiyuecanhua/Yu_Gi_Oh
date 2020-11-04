@@ -1,44 +1,21 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
-  
-public static class CardConfigManager
+
+//[SerializeField]
+public class CardConfigList
 {
-    public static Dictionary<int,MonsterCardConfig.Config> MonsterConfig;
-    public static void InintConfig()
+    public string configname= "CardConfig";
+    public List<CardConfig> List;
+    public CardConfigList()
     {
-        string configpath = Application.dataPath + "/Config/MonsterCardConfig.json";
-        List<MonsterCardConfig.Config> list;
-        if (File.Exists(configpath))
-        { 
-            list = JsonUtility.FromJson<MonsterCardConfig>(File.ReadAllText(configpath)).List;
-            foreach (var v in list)
-            {
-                MonsterConfig.Add(v.id,v);
-            }
-        }
-        else
-        {
-            MonsterConfig = new Dictionary<int, MonsterCardConfig.Config>();
-        }
-    } 
-    
-}
-[Serializable]
-public class MonsterCardConfig
-{
-    [SerializeField]
-    public  List<Config> List = new List<Config>();
-    [Serializable]
-    public class Config
-    {
-        public int id = 1;
-        public string name;
-        public string desc;
-        public int atk = 90;
-        public int def = 90;
+        List = new List<CardConfig>();
+        configname = "CardConfig";
     }
 }
-
+public class CardConfig
+{
+    public string name="1";
+    public int atk=90;
+    public int def=80;
+}
