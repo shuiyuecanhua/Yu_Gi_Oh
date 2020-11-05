@@ -1,3 +1,5 @@
 Library/
-Temp/
-.vs/Yu_Gi_Oh/v15/.suo
+Temp/ 
+.vs/Yu_Gi_Oh/v15/.suo 
+Packages/
+Logs/ 
