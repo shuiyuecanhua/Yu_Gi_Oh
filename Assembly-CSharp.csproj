@@ -63,7 +63,10 @@
     <Compile Include="Assets\Scripts\Card\CardItem.cs" />
     <Compile Include="Assets\Scripts\Config\CardConfig.cs" />
     <Compile Include="Assets\Scripts\ConfigEditorWindow.cs" />
+    <Compile Include="Assets\Scripts\Event\EventDefines.cs" />
+    <Compile Include="Assets\Scripts\Event\Events.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Stage\StageControler.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/GitHub/Yu_Gi_Oh/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

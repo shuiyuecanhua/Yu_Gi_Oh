@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public List<Card> DegeneratorCards;
     public List<MonsterCard> MonsterCards;
     public List<EffectCard> EffectCards;
-    public EffectCard SceneCard;
+    public EffectCard SceneEffectCard;
     public void Start()
     {
         
