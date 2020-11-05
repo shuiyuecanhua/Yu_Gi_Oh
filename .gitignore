@@ -3,3 +3,8 @@ Temp/
 .vs/Yu_Gi_Oh/v15/.suo 
 Packages/
 Logs/ 
+Packages/manifest.json
+.vs/Yu_Gi_Oh/v15/.suo
+Assembly-CSharp.csproj
+Logs/Packages-Update.log
+Packages/manifest.json
