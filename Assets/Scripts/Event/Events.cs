@@ -5,7 +5,6 @@ using UnityEngine;
 public class Events : MonoBehaviour
 {
     // Start is called before the first frame update
-    Event
     void Start()
     {
         
