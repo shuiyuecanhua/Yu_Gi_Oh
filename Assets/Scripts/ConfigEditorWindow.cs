@@ -131,6 +131,7 @@ public class ConfigEditorWindow : EditorWindow
                 method.Invoke(configlist, tempt);
                 return;
             }
+
             index++;
             EditorGUILayout.EndHorizontal();
         }
