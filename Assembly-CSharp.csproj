@@ -65,8 +65,10 @@
     <Compile Include="Assets\Scripts\ConfigEditorWindow.cs" />
     <Compile Include="Assets\Scripts\Event\EventDefines.cs" />
     <Compile Include="Assets\Scripts\Event\Events.cs" />
+    <Compile Include="Assets\Scripts\Misc\SplitMesh.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Stage\StageControler.cs" />
+    <Compile Include="Assets\Temp\Script\Test1.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Github/Yu_Gi_Oh/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

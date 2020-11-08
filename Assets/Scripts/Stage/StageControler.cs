@@ -17,18 +17,25 @@ public enum Stage
     Blue_Over, 
 }
 public class StageControler : MonoBehaviour
-{
-    // Start is called before the first frame update
-
+{ 
     void Start()
     {
-        Events.GetInstance().AddLister(EventDefine.Blue_Begin,()=> { Debug.LogError("blue_begin"); });
-        Events.GetInstance().CalEvent(EventDefine.Blue_Begin);
+        
     }
-
-    // Update is called once per frame
+     
     void Update()
     {
         
+    }
+    private void OnGUI()
+    {
+        if (GUI.Button(new Rect(0,0,100,30),"抽卡"))
+        {
+            StartCoroutine(FaCard());
+        }
+    }
+    IEnumerator FaCard()
+    {
+        yield return new WaitForEndOfFrame();
     }
 }
