@@ -29,10 +29,10 @@ public class StageControler : MonoBehaviour
     }
     private void OnGUI()
     {
-        if (GUI.Button(new Rect(0,0,100,30),"抽卡"))
-        {
-            StartCoroutine(FaCard());
-        }
+        //if (GUI.Button(new Rect(0,0,100,30),"抽卡"))
+        //{
+        //    StartCoroutine(FaCard());
+        //}
     }
     IEnumerator FaCard()
     {
